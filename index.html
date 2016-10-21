@@ -1,169 +1,297 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author"      content="Kristina McElveen">
+    <title> Kristina McElveen | Frontend Engineer</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
+    <meta name="author" content="3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">   
+    
+    
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+</head> 
 
-	<title>Hacker | Kristina McElveen</title>
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">                       
+            <img class="profile-image img-responsive pull-left" src="cutmypic.png" alt="Jeremy Smith" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Kristina McElveen</h1>
+                <h2 class="desc">Frontend Engineer</h2>   
+                <ul class="social list-inline">
+                    <li><a href="https://twitter.com/mkultra360"><i class="fa fa-twitter"></i></a></li>                   
+                    <li><a href="mailto:kristinamclveen@gmail.com?Subject=Hello%20there"><i class="fa fa-envelope-o"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/kristinamclveen"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/kmcelveen"><i class="fa fa-github-alt"></i></a></li>                 
+                </ul> 
+            </div><!--//profile-->
+           <!--  <a class="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-paper-plane">Represented by Creative Circle 415.615.9999
 
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+</i></a>             -->  
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                          <p>
+                             I'm a Frontend Software Engineer with a love for JavaScript and functional programming. I love to solve puzzles especially complex puzzles as the most difficult things tend to warrant the best rewards. I am very interested in Android development and application security as well. Currently, I am working with React, Redux, AWS, ES2015 and Java. I am experienced in single-page web application development, mobile hybrid JS framework development, agile development methodology, Github version control and team workflows. I consider myself to be results-oriented, dependable and a self-starter. I spend most of my time mastering and learning new things. I love contributing to great causes, drawing and participating in extreme sports.
+                            </p>    
+    
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="#" target="_blank"></a></h3>
+                                <div class="featured-image">
+                                    <div class="ribbon">
+    
+                                        </div>
+                                    </div>
+                                    
+                                <div class="desc text-left">                                    
+                                    <p></p>
+                                </div><!--//desc-->                       
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="github/kristinamclveen">
+                                <img class="img-responsive project-image" src="projects/slaystagram2.png" alt="" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="github/kristinamclveen">Slaystagram</a></h3>
+                                    <p>Fashion photo sharing application</p>
+                                    <strong>Tech Stack</strong>: React, Redux, HTML5, CSS3, Node/Express.js
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="//paired-up.herokuapp.com/" target="_blank">
+                                <img class="img-responsive project-image" src="projects/pairedup_png.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="//paired-up.herokuapp.com/" target="_blank">Paired-Up</a></h3>
+                                    <p>A pair-programming platform for future engineers</p>
+                                    <strong>Tech Stack</strong>: Angular 1.x, WebRTC, Socket.io, MongoDB, OAuth2, Node/Express.js
+                                   
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="//bondfire2.firebaseapp.com">
+                                <img class="img-responsive project-image" src="projects/bondfire.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="bondfire2.firebaseapp.com">BondFire</a></h3>
+                                    <p>Social network for software engineer immersive graduates</p>
+                                    <strong>Tech Stack</strong>: Angular 1.x, jQuery, D3, Firebase, HTML3, CSS3, Github API
+                                   
+                                </div><!--//desc-->                          
+                            </div><!--//item-->                            
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="//github.com/kmcelveen/PasswordPlease" target="_blank">
+                                <img class="img-responsive project-image" src="projects/passwordplease.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="//github.com/kmcelveen/PasswordPlease" target="_blank">Password Please</a></h3>
+                                    <p>Command line password manager with encryption</p>
+                                    <strong>Tech Stack</strong>: Node.js
+                                   
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="//github.com/kmcelveen/JuniorDevJobs_Welcome-Bot" target="_blank">
+                                <img class="img-responsive project-image" src="//s3-us-west-2.amazonaws.com/jrdevsimages/jr-dev-jobs-logo-full.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="//github.com/kmcelveen/JuniorDevJobs_Welcome-Bot" target="_blank">JuniorDevJobs Welcome Bot</a></h3>
+                                    <p>Slack bot that welcome new slack members</p>
+                                    <strong>Tech Stack</strong>: Javascript and Heroku
+                                   
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+               
+                
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Professional Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Frontend Engineer -<span class="place"><a href="#"> </a>Freelance</span><span class="year"> (2016 - Present)</span></h3>
+                                <p>Develop and deploy custom websites and wep applications in HTML, CSS, Wordpress and JavaScript. Currently, I am working on converting an Angular 1.x app to React/Redux.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Software Engineer + Fellow -<span class="place"><a href="#"> Hack Reactor</a></span> <span class="year">(2015 - 2016)</span></h3>
+                                <p>Designed and developed test-driven curriculum for Hack Reactors junior academy for beginner programmers. Taught 150+ students intermediate JavaScript and computer science concepts.
+                            </p>
+                            </div><!--//item-->
+                            
+                           <!--  <div class="item">
+                                <h3 class="title">Software - <span class="place"><a href="#">IHouseWeb</a></span> <span class="year">(2012 - 2013)</span></h3>
+                                <p> Work with quality assurance team to resolve issues resulting from pre-live testing.Create documentation for user information, sitemaps, privacy policies, security, functionality and usability.Collaborate with developers and operational teams to create and prioritize user requirements.</p>
+                            </div> --><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                   <!-- <aside class="info aside section">
+                    <div class="section-inner">
+                    <h2 class="heading">Location:</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only"></span><h3></h3> San Francisco, Bay Area US</li>
+                            </ul>
+                        </div><!--//content  
+                    </div><!--//section-inner                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skillset</h2>
+                        <div class="content">
+                            <p class="intro">
+                            </p>
+                            
+                            <div class="skillset">
+                                <p><span style="font-weight: bold;">Strong</span>: Javascript, Angular, Node/Express.js, HTML, CSS, MongoDB, Socket.io, jQuery, Git, Heroku</p>
+                                <p><span style="font-weight: bold;">Experienced</span>: React, Redux, Webpack, ES6, MySQL, D3, OAuth2</p>
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                <!-- <aside class="testimonials aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <p><i class="fa fa-quote-left"></i>Jeremy is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
+                                </blockquote>                
+                                <p class="source"><span class="name">Steven Rivkin</span><br /><span class="title">New Haven Real Estate</span></p>                                                             
+                            </div><!--//item-->
+                            
+                       <!--  </div><!--//content-->
+                    <!-- </div>//section-inner -->
+                <!-- </aside>//section  --> 
+                
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Hack Reactor </h3>
+                                <span class="year">(December 2015)</span>
+                                <h1 class="university"></h1>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> San Francisco State University</h3>
+                                <span class="year">(May 2012)</span>
+                                <h1 class="university"></h1>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                
+                <aside class="blog aside section">
+                    <div class="section-inner-2">
+                        <div>
 
-	<!-- Bootstrap itself -->
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-	<!-- Custom styles -->
-	<link rel="stylesheet" href="assets/css/magister.css">
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                   <aside class="list music aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Fun Facts</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-cog"></i>I can draw really good<a href="#"></a></li>
+                                <li><i class="fa fa-cog"></i>I broke my knee, tibia and tore my ACL<a href="#"></a></li>
+                                <li><i class="fa fa-cog"></i>I can hack..into things..legally<a href="#"></a></li>
+                                <li><i class="fa fa-cog"></i>I am a junior dooms day prepper..shhh!!<a href="#"></a></li>
+                            </ul>
+                        </div> <!--//content -->
+                    </div> <!-- //section-inner -->
+                </aside> <!--//section-->
+                 
+                <aside class="list conferences aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">What am I up to?</h2>
+                        <div class="content">
+                            <p>
+                                I aspire to be a polyglot and I have set goals for myself to be great with specific langauges. I spent 1 week with Java and built a Andriod Tip Calculator. This week I have been coding with python as it is a general purpose language that is so beautiful. I have been automating some of the task that I repeat everyday and getting to know the benefits of the python language. Given that I now working on building a web app that takes a photo and removes the EXIF data from the photo therefore no one can track where the picture was actually taken. Yes, I am super into security and data.
+                            </p>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                <aside class="list conferences aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Resume</h2>
+                        <div class="content">
+                            <a class="media" href="KristinaMcElveenResume.pdf" target="_blank"><img id="resume-img" class="icon icons8-Open-Resume bounce img-responsive" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAEoUlEQVRoQ+2ZbUxbVRjH/9fx3jZQwJKWUFYanGzd5KUqEV2dzsQIZuoHPywzYjTRLxozI+o+GL/IMhLjW6LTadRk+mG+jG3OGDeNZmMwXLHlZRUIZZRZ1gulNe0tbaG95rRgLNxbbqEXLobz9Z5z+v+d5/mf55xTCv+TRvFxvNL2yTsUhdukxMmysB5peeZFLk28IK+2HftVV6Y2VWjVkmCxOybgmvJYX3/+ieqUQe5vqDXtvatWEiDnL/Wgs+fqJshmRNKdj5upRXatVM0+43PFApGrKEl3QLAmEfFM9KL/tzYE/e4YQI68GAbTy1Cqd6UNSHQQEoWuk8/hZrUG+qqdMeEjtj5MTjhR/+jRtEVHdJDBzqPwuTphND2QsPqd589CpW+EvvZAWqIiOsiV71ugLAT0VYlpNGLrhWcaMDa1JYCEZudAe/28cKoCObIzM5Z8Fx0kFhG6C8bdewVFhAmGMToR9xJX06mLIMvJWnuQmEe+exYqTSkq5j1it/WBdjpR/9gG8ghZuviudQRB//T8rlUEg6llY+1a/82BDV9HCEz/6DQm3EyMS1Mkww5dIacHJGv23/+kcarDjlA4AmWBLCbe42WQnbUF+xoqcPutqgQgSZr91MVRdA+6oNNroNOXIitrS0x0OBzB6MhfGB1x4o5tJdh3t27VtUS07Zek0hc/2lBdVwlteeKqL6h2jNGwmIfx5INVMPCkmlBC0UDeOmFBhlyG2rrKpFp6zMOI+BkcfJzzhiqUQ5xD47QvhMPHr6BMq0KeLCepmAATxLiDxmsHjChUZENSZndOMWjvsCPKClvQmyjgkYYKaIplkKTZhWGkp5doHkmPPOGzbIIku+ouZ1jh67y0J98x/oL5Kq7T7vH9D+3Wcs2f9KWR786+nGFXA8J3jL88YMdsFMw9u/TytIGsRuhKx244kEPHujBwLX4dWNxKi3OjHx68L34OWtRWlForXVUh4wjIVCADqpLEYw/tokFFmOjHL92bPhAxzf7BSRv8rALl5WUJ3GNj4wgz7vSCiGn24z9dA4M1AhGSIivtQ1LLF5WvTURWKlLIuE0QvlVar8q+4cxud/pAUUt3/3PmG2CzlJwe8f9Ns25vaI+k6sjPPdfx3re9nAmh1Wo5QRwOB2d/FnhqXQviAkx1TTUU8vgLjNDm8zOw/GEBgTjT2vj5uoIQ0e9+Y8XFfhe2GwyCYQhEn7V3NhKJfHX6cFMzmWfdQYiIt7+2omPABaPRiIwMzhPIv4Gam4ug+3J3hGWjJ9rfbNy/8EESIETMC+9fgDfAYvsOAy8MgbBYe2cCAWbkTGtT/F+l+SYZECY4h5aPOuENRFFTw/10ZDb3YGYmOERl5t7Z/sYeryRBiCgC83TbL8hXFqKyMvG9bGhwEJOTUzPIzNMshljWI8p8hUmZrxC6kayqX4VuK2SyXNzwBPHlOQcKioqw7ZY4zNDgMIEIhdlo/Q+tjZYU68inzaCiW1elLoXBMlleTl31znoyxDkdkp++RNdVzoMMDw1jDqjhg0gakRQ0iNL14UNnmyngMzL5Qq1I9kO8ZhdFXYqTEhgyhBS85Yb+A+CTWPflfoFPAAAAAElFTkSuQmCC" width="50" height="50"></a> 
 
-	<!-- Fonts -->
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href='//fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
-</head>
-
-<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
-<body class="theme-invert">
-
-<nav class="mainmenu bounce">
-	<div class="container">
-		<div class="dropdown">
-			<button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			<!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
-			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-				<li><a href="#head" class="active">Sup!</a></li>
-				<li><a href="#about">About me</a></li>
-				<li><a href="#themes">Portfolio</a></li>
-				<li><a href="#contact">Talk to me</a></li>
-			</ul>
-		</div>
-	</div>
-</nav>
-
-
-<!-- Main (Home) section -->
-<section class="section" id="head">
-	<div class="container">
-
-		<div class="row">
-			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">
-
-				<!-- Site Title -->
-				<h1 class="title">Kristina McElveen</h1>
-
-
-				<h2 class="subtitle">{iHack : Things}</h2>
-
-				<!-- Short introductory (optional) -->
-				<h3 class="tagline">
-					<i>I spend most of my time being an information junkie and growing; I love contributing to great causes, coding, drawing and boxing.</i><br>
-				</h3>
-			</div> <!-- /col -->
-		</div> <!-- /row -->
-
-	</div>
-</section>
-
-<!-- Second (About) section -->
-<section class="section" id="about">
-	<div class="container">
-
-		<h2 class="text-center title">About me</h2>
-
-		<div class="row">
-			<div class="col-sm-4 col-sm-offset-2">
-				<h5><strong>Lets gossip?<br></strong></h5>
-				<p>Well, here it is: After a good run in the Information Technology field, I was given an oppotunity to hack on a small frontend project. As frustrating as hacking on a project with no prior experience can be...I enjoyed the process. I told myself that I was going to build an app and become wealthy. You do..know...that I am joking right? Ok all jokes to the side, after that experience with the small project I became obsessed with making things for the web. I went from struggling to picking languages fairly quickly. The struggle is so real but feels great! The struggle is most worth it when I create for change. I feel that if you are breathing, you should pay it forward which is the sole reason why iCode.</p>
-			</div>
-			<div class="col-sm-4">
-				<h5><strong>More, gossip!<br></strong></h5>
-				<p>After the storm, I can confidently state that I'm a Full Stack Software Engineer with a love for Javascript and functional programming. I love to solve puzzles especially complex puzzles as the most difficult things tend to warrant the best rewards. I am very interested in Android development and application security as well. Currently, I am working with React, Redux, AWS, ES2015 and Java. I am experienced in single-page web application development, mobile hybrid JS framework development, agile development methodology, Github version control and team workflows.</p>
-				<h5><strong>If you are nosey<br></strong></h5>
-				<p><a href="https://github.com/kmcelveen">Github</a> / <a href="https://twitter.com/mkultra360">Twitter</a> / <a href="http://linkedin.com/kristinamcelveen">LinkedIn</a></p>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- Third (Works) section -->
-<section class="section" id="themes">
-	<div class="container">
-
-		<h2 class="text-center title">Work..</h2>
-		<div class="row">
-			<div class="col-sm-4 col-sm-offset-2">
-				<div class="thumbnail">
-					<img src="http://carinetodmia.com/img/portfolio/pairupscreen.jpg" alt="">
-					<div class="caption">
-						<h3>Paired-Up</h3>
-						<p>Learning how to code? Need a Partner? PairedUp is a way to connect with awesome Tech Mentors.</p>
-						<p><a href="//paired-up.herokuapp.com/" class="btn btn-primary" role="button" target="_blank">Button</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img src="assets/screenshots/bondfire.jpg" alt="">
-					<div class="caption">
-						<h3>BondFire</h3>
-						<p>BondFire is an online social network that connects graduates of software engineering immersive programs with fellow graduates and recruiters</p>
-						<a href="//bondfire2.firebaseapp.com/" class="btn btn-primary" role="button">Button</a>
-					</div>
-				</div>
-			</div>
-			<!-- <div class="col-sm-4 col-sm-offset-2">
-				<div class="thumbnail">
-					<img src="assets/screenshots/sshot5.jpg" alt="">
-					<div class="caption">
-						<h3>Thumbnail label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
-						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img src="assets/screenshots/sshot3.jpg" alt="">
-					<div class="caption">
-						<h3>Thumbnail label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
-						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-					</div>
-				</div> -->
-			</div>
-
-		</div>
-
-	</div>
-</section>
-
-<!-- Fourth (Contact) section -->
-<section class="section" id="contact">
-	<div class="container">
-
-		<h2 class="text-center title">Get in touch</h2>
-
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2 text-center">
-				<p class="lead">Like what you see?</p>
-				<p>Feel free to email me, or drop me a line on Twitter!</p>
-				<p><b><li id="email">< <a href="mailto:kmcelveen.sp26@gmail.com?Subject=Hello%20again">kmcelveen.sp26@gmail.com</a> / ></li></b><br><br></p>
-				<ul class="list-inline list-social">
-					<li><a href="https://twitter.com/mkultra360" class="btn btn-link"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
-					<li><a href="https://github.com/kmcelveen" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></li>
-					<li><a href="http://linkedin/in/kristinamcelveen" class="btn btn-link"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
-				</ul>
-			</div>
-		</div>
-
-	</div>
-</section>
-
-
-<!-- Load js libs only when the page is loaded. -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="assets/js/modernizr.custom.72241.js"></script>
-<!-- Custom template scripts -->
-<script src="assets/js/magister.js"></script>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/jquery.media.js"></script> 
+    <script type="application/pdf">
+      $('a.media').media({width:500, height:400});
+    </script>
+    <!-- Javascript -->          
+    <!-- <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github activity plugin
+    <script type="text/javascript" src="assets/plugins/github-activity/dist/mustache/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/dist/github-activity-0.1.1.min.js"></script>
+    <!-- custom js
+    <script type="text/javascript" src="js/main.js"></script> -->           
 </body>
-</html>
+</html> 
+
